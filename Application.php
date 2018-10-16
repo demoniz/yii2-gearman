@@ -284,6 +284,7 @@ class Application
                     $callback($this);
                 }
             }
+            usleep(2e5);
         }
         return $this;
     }
